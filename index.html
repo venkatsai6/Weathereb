@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weathereb</title>
+    <link rel="icon"
+        href="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/63069/weather-icon-clipart-xl.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="font/Questrial.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div class="header">
+            <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/63069/weather-icon-clipart-xl.png" />
+            <h1 style="text-align:start; padding-top: 5px; padding-left: 60px;">Weathereb</h1>
+        </div>
+        <div id="location">
+            <input type="text" id="city" placeholder="City">
+            <input type="submit" id="go" value="Go">
+        </div>
+        <h2 id="weatherCountry"></h2>
+        <div class="card-right">
+            <div class="tempIcon">
+                <img src="icons/unknown.png" alt="">
+            </div>
+            <h2 id="temperature">0°<b>C</b></h2>
+            <h2 id="weatherDescription"></h2>
+        </div>
+        <ul class="card-left">
+            <h3 id="speed">Wind Speed: 0kmph</h3>
+            <h3 id="feelsLike">Real Feel: 0°C</h3>
+            <h3 id="humidity">Humidity: 0%</h3>
+            <h3 id="pressure">Pressure: 0hPa</h3>
+            <h3 id="airindex">Air Quality Index: 0</h3>
+            <!-- <h3 id="cordinates">Lat / Lon: 0 / 0</h3> -->
+            <h3 id="sunrise">Sunrise: 00:00</h3>
+            <h3 id="sunset">Sunset: 00:00</h3>
+        </ul>
+        <div style="text-align: center; margin-top: 440px; font-size: 12px;">
+            Designed by
+        </div>
+        <div style="text-align: center; margin-top: 6px; font-size: 12px;">
+            P Venkat Sai
+        </div>
+    </div>
+  
+    <script src="js/main.js"></script>
+</body>
+
+</html>

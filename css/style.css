@@ -1,0 +1,140 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "LexendDeca";
+    box-sizing: border-box;
+    color: #fff;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to right, #0f0d0d, #414345);
+}
+
+.header {
+    overflow: hidden;
+    background-color: #3d5a80;
+    padding: 5px 10px;
+    padding-left: 25px;
+    box-shadow: 0 8px 6px -6px black;
+  }
+
+.header img {
+    float:left;
+    margin-right:10px;
+    position: relative;
+    top:2px;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+#container #location {
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 6%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    color: black;
+}
+
+#container input {
+    height: 50px;
+    width: 300px;
+    margin: 55px 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius:  10px;
+    color: #3d5a80;
+    box-shadow: 0 8px 6px -6px black;
+    
+}
+
+
+#container input[type="submit"] {
+    cursor: pointer;
+    width: 100px;
+    background: white;
+    color: #3d5a80;
+    font-weight: 700;
+    font-size: 22px;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.tempIcon {
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    top: 11%;
+    right: 27%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+#weatherCountry {
+    font-size: 50px;
+    padding-top: 120px;
+    width: 100%;
+    text-align: center;
+}
+
+#temperature {
+    font-size: 45px;
+    text-align: right;
+    padding-right: 15x;
+    padding-top: 160px;
+}
+
+#temperature b {
+    color: #e2e2e290;
+}
+
+#weatherDescription {
+    font-size: 20px;
+    text-align: right;
+    padding-top: 5px;
+}
+
+.card-left {
+    position: absolute;
+    top: 45%;
+    left: 13%;
+    background-color: #3d5a80;
+    border-radius: 15px;
+    box-shadow: 0 8px 6px -6px black;
+    width: 280px;
+    height: 300px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    line-height: 35px; 
+}
+
+.card-right {
+    position: absolute;
+    top: 45%;
+    right: 13%;
+    background-color: #3d5a80;
+    border-radius: 15px;
+    box-shadow: 0 8px 6px -6px black;
+    width: 280px;
+    height: 300px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px; 
+}
+
+#container ul li {
+    font-size: 22px;
+    margin: 20px 0;
+    
+}
