@@ -24,7 +24,7 @@ go.addEventListener("click", () => {
     //    console.log(city.value);
 
     let key = `aed006468592f6cd880bce6ed61a53f4`;
-    let url = `http://api.openweathermap.org/data/2.5/weather?q=${city.value}&lang=en&units=metric&appid=${key}`;
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&lang=en&units=metric&appid=${key}`;
 
     fetch(url).then(response => {
         return response.json();
